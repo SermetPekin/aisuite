@@ -45,6 +45,9 @@ sentence-transformers = "^3.0.1"
 datasets = "^2.20.0"
 vertexai = "^1.63.0"
 
+[tool.poetry.scripts]
+aisuite = "aisuite.cli:main"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
